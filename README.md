@@ -1,6 +1,6 @@
 # NBA Shot Analysis: Player Performance, Defender Impact, and Court Positioning (2021 Playoffs)
 
-![NBA Visualization Example](https://example.com/path/to/image.png) <!-- Add an image if you have one -->
+![NBA Visualization Example](nba-shot-analysis/SHOTMAP.png)
 
 This project analyzes NBA shooting statistics from the 2021 playoffs to uncover insights into player performance, defender effectiveness, and shot distribution across the court. Using Python and data visualization libraries, the project explores key metrics such as **Field Goal Attempts (FGA)**, **Field Goals Made (FGM)**, and **Field Goal Percentage (FG%)** by range and side of the basket. It also evaluates defender success rates and identifies the best defenders.
 
@@ -65,9 +65,9 @@ The project focuses on three main areas of analysis:
 
 ### Results
 The analysis reveals:
-Players are most efficient in the 0-5 ft range, with an FG% of [X]%.
-The best defender is [Defender Name], with a success rate of [X]%.
-Shots from the left side of the basket have an FG% of [X]%, compared to [X]% from the right side.
+1. Players are most efficient in the 0-5 ft range, with an FG% of 55%.
+2. The best defender is Russell Westbrook, with a success rate of 74%.
+3. Shots from the left side of the basket have an FG% of 45%, compared to 48% from the right side.
 
 ### Visualizations
 The project includes the following visualizations:
@@ -87,5 +87,5 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Acknowledgments
-Dataset: https://www.nba.com/stats/players/shooting?Season=2020-21&SeasonType=Playoffs&PerMode=Totals
-Libraries: pandas, matplotlib, seaborn, numpy
+1. Dataset: https://www.nba.com/stats/players/shooting?Season=2020-21&SeasonType=Playoffs&PerMode=Totals
+2. Libraries: pandas, matplotlib, seaborn, numpy

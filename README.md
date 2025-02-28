@@ -1,6 +1,6 @@
 # NBA Shot Analysis: Player Performance, Defender Impact, and Court Positioning (2021 Playoffs)
 
-![NBA Visualization Example](nba-shot-analysis/SHOTMAP.png)
+![NBA Visualization Example](SHOTMAP.png)
 
 This project analyzes NBA shooting statistics from the 2021 playoffs to uncover insights into player performance, defender effectiveness, and shot distribution across the court. Using Python and data visualization libraries, the project explores key metrics such as **Field Goal Attempts (FGA)**, **Field Goals Made (FGM)**, and **Field Goal Percentage (FG%)** by range and side of the basket. It also evaluates defender success rates and identifies the best defenders.
 
@@ -18,7 +18,7 @@ This project analyzes NBA shooting statistics from the 2021 playoffs to uncover 
 ---
 
 ## Dataset
-The dataset (`nba_players_shooting.csv`) contains the following columns:
+The dataset (`nba_shooting_stats.csv`) contains the following columns:
 - `SHOOTER`: Name of the player taking the shot.
 - `X`, `Y`: Horizontal and vertical distance of the shot from the basket (in feet).
 - `RANGE`: Radius range of the shot (e.g., 0-5 ft, 5-10 ft).
